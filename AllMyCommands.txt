@@ -1,0 +1,32 @@
+$ cd /c/S00
+$ PWD
+$ git init
+$ git clone https://github.com/norasadek66/Sprint00.git
+ $ cd Sprint00
+$ git add Section1.txt
+$ git commit -m ' adding Section1'
+$ git add Section3.txt
+$ git commit -m ' adding Section3'
+$ git add Section5.txt
+$ git commit -m ' adding Section5'
+$ git rm --cached Section3.txt
+
+$ git commit -m 'deleting section3'
+$ git log
+$ git checkout a41896e523239509ca19f4c7633a2ce001b7f470 Section3.txt // first argument id of the commit which has section3.txt
+$ git status
+$ git commit -m 'recovring section3.tx'
+$ git push origin master
+$ git branch ReadMe
+$ git checkout ReadMe
+$ git add README.md
+$ git commit -m 'Adding README.md file to ReadMe branch'
+$ git status
+$ git push --set-upstream origin ReadMe
+
+
+$ git pull
+$ git checkout master
+$ git merge ReadMe 
+$ git push
+
